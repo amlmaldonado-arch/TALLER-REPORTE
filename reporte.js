@@ -94,6 +94,7 @@ const documento = {
             margin: [0, 5, 0, 15]
         },
         {
+            
             columns: [
                 {
                     text: `Fecha de emisión: ${fechaTexto}`,
@@ -173,6 +174,7 @@ const documento = {
     ]
 };
 
+
 const pdf = printer.createPdfKitDocument(documento);
 
 pdf.pipe(
@@ -180,6 +182,7 @@ pdf.pipe(
         "reporte_matricula_yavirac.pdf"
     )
 );
+
 
 pdf.end();
 
