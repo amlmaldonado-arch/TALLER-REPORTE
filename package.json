@@ -1,0 +1,12 @@
+{
+  "name": "reportes-pdf",
+  "version": "1.0.0",
+  "description": "Generador de certificados con pdfmake",
+  "main": "reporte.js",
+  "scripts": {
+    "start": "node reporte.js"
+  },
+  "dependencies": {
+    "pdfmake": "0.2.7"
+  }
+}
